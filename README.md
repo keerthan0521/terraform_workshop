@@ -1,5 +1,5 @@
-`
-terraform {
+
+`terraform {
   required_providers {
     github = {
       source  = "integrations/github"
@@ -11,7 +11,7 @@ terraform {
 provider "github" {
   token = "your-token-here"
 }
-
+`
 resource "github_repository" "example" {
   name        = "example"
   description = "My awesome codebase"
